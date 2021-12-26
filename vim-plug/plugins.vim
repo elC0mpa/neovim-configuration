@@ -53,6 +53,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'mhinz/vim-signify'
 	Plug 'yggdroot/indentline'
 	Plug 'scrooloose/nerdcommenter'
+	Plug 'mhinz/vim-startify'
+
 
 	" git
 	Plug 'tpope/vim-fugitive'

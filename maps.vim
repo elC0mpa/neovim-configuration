@@ -42,3 +42,10 @@ let g:fzf_action = {
   \ 'ctrl-s': 'split',
   \ 'ctrl-v': 'vsplit'
   \}
+
+" Coc
+
+
+" Comment
+" nnoremap <C-/> :call NERDComment(0,"toggle")
+" nnoremap <C-k><C-u> :call NERDCommenterUncomment()
