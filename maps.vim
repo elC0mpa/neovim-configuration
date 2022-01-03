@@ -43,6 +43,10 @@ let g:fzf_action = {
   \ 'ctrl-v': 'vsplit'
   \}
 
+" Terminal
+nnoremap <C-j> :ToggleTerm<CR>
+
+
 " Coc
 
 

@@ -5,6 +5,7 @@ so ~/.config/nvim/coc.vim
 set rnu
 set number
 set splitright
+set hidden
 
 syntax on
 colorscheme gruvbox

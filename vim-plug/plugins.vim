@@ -16,12 +16,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'leafgarland/typescript-vim'
 
 	" status bar
-	Plug 'maximbaz/lightline-ale'
+	Plug 'shinchu/lightline-gruvbox.vim'
 	Plug 'itchyny/lightline.vim'
 
 	" Themes
 	Plug 'morhetz/gruvbox'
-	Plug 'shinchu/lightline-gruvbox.vim'
 
 	" Tree
 	Plug 'preservim/nerdtree'
@@ -31,12 +30,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'alvan/vim-closetag'
 	Plug 'tpope/vim-surround'
 
-	" tmux
-	Plug 'benmills/vimux'
-	Plug 'christoomey/vim-tmux-navigator'
-
 	" autocomplete
-	Plug 'sirver/ultisnips'
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'leafgarland/typescript-vim'
 
@@ -54,6 +48,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'yggdroot/indentline'
 	Plug 'scrooloose/nerdcommenter'
 	Plug 'mhinz/vim-startify'
+        Plug 'akinsho/toggleterm.nvim'
 
 
 	" git
