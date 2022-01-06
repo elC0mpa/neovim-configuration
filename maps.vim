@@ -3,7 +3,7 @@ nnoremap <C-s> :w<CR>
 nnoremap <C-q> :q<CR>
 
 " Navigation commands
-nnoremap <C-b> :NERDTreeToggle<CR>
+nnoremap <C-b> :NvimTreeToggle<CR>
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 nnoremap <C-t> :tabnew<CR>

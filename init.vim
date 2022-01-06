@@ -1,6 +1,7 @@
 so ~/.config/nvim/vim-plug/plugins.vim
 so ~/.config/nvim/maps.vim
 so ~/.config/nvim/coc.vim
+so ~/.config/nvim/lua-tree.lua
 
 set rnu
 set number

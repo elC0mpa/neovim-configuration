@@ -23,8 +23,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'morhetz/gruvbox'
 
 	" Tree
-	Plug 'preservim/nerdtree'
-	Plug 'ryanoasis/vim-devicons'
+	Plug 'kyazdani42/nvim-tree.lua'
+	Plug 'kyazdani42/nvim-web-devicons'
 
 	" typing
 	Plug 'alvan/vim-closetag'
