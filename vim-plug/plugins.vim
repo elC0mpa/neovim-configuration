@@ -26,9 +26,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'kyazdani42/nvim-tree.lua'
 	Plug 'kyazdani42/nvim-web-devicons'
 
+	" Tabs
+	Plug 'akinsho/bufferline.nvim'
+
 	" typing
 	Plug 'alvan/vim-closetag'
 	Plug 'tpope/vim-surround'
+	Plug 'jiangmiao/auto-pairs'
 
 	" autocomplete
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -48,8 +52,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'yggdroot/indentline'
 	Plug 'scrooloose/nerdcommenter'
 	Plug 'mhinz/vim-startify'
-        Plug 'akinsho/toggleterm.nvim'
-
+  Plug 'akinsho/toggleterm.nvim'
 
 	" git
 	Plug 'tpope/vim-fugitive'

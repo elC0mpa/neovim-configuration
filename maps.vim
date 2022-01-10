@@ -25,13 +25,6 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
-" Auto close
-inoremap { {}<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap ' ''<left>
-inoremap " ""<left>
-
 " Terminal
 :tnoremap <Esc> <C-\><C-n>
 
