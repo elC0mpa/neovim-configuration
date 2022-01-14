@@ -39,6 +39,10 @@ let g:fzf_action = {
 " Terminal
 nnoremap <C-j> :ToggleTerm<CR>
 
+" Find
+nnoremap // :noh<CR>
+nnoremap <C-f> :Rg<CR>
+
 
 " Coc
 
