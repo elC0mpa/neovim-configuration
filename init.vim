@@ -2,6 +2,7 @@ so ~/.config/nvim/vim-plug/plugins.vim
 so ~/.config/nvim/maps.vim
 so ~/.config/nvim/coc.vim
 so ~/.config/nvim/lua-tree.lua
+so ~/.config/nvim/bufferline.lua
 
 set rnu
 set number
@@ -18,5 +19,4 @@ set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
-
 

@@ -1,19 +1,18 @@
 " Usual commands
 nnoremap <C-s> :w<CR>
 nnoremap <C-q> :q<CR>
+nnoremap <C-w> :bdelete<CR>
 
 " Navigation commands
 nnoremap <C-b> :NvimTreeToggle<CR>
-nnoremap <C-Left> :tabprevious<CR>
-nnoremap <C-Right> :tabnext<CR>
+nnoremap <C-h> :tabprevious<CR>
+nnoremap <C-l> :tabnext<CR>
 nnoremap <C-t> :tabnew<CR>
-inoremap <C-Left> <Esc>:tabprevious<CR>i
-inoremap <C-Right> <Esc>:tabnext<CR>i
 inoremap <C-t> <Esc>:tabnew<CR>
 
 " Split Navigation commands
-nnoremap <A-Right> <C-w>l
-nnoremap <A-Left> <C-w>h
+nnoremap <A-l> <C-w>l
+nnoremap <A-h> <C-w>h
 
 " Scrolling (not working right now)
 nnoremap <C-j> 10<C-e>
