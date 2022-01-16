@@ -3,6 +3,7 @@ so ~/.config/nvim/maps.vim
 so ~/.config/nvim/coc.vim
 so ~/.config/nvim/lua-tree.lua
 so ~/.config/nvim/bufferline.lua
+so ~/.config/nvim/gitsigns.lua
 
 set rnu
 set number

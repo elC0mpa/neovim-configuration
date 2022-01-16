@@ -49,15 +49,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'junegunn/fzf.vim'
 	Plug 'terryma/vim-multiple-cursors'
 	Plug 'easymotion/vim-easymotion'
-	Plug 'mhinz/vim-signify'
 	Plug 'yggdroot/indentline'
 	Plug 'scrooloose/nerdcommenter'
 	Plug 'mhinz/vim-startify'
+	Plug 'tpope/vim-repeat'
   Plug 'akinsho/toggleterm.nvim'
 
 	" git
-	Plug 'tpope/vim-fugitive'
-
-	Plug 'tpope/vim-repeat'
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'lewis6991/gitsigns.nvim'
 
 call plug#end()

@@ -44,10 +44,3 @@ nnoremap <C-j> :ToggleTerm<CR>
 nnoremap // :noh<CR>
 nnoremap <C-f> :Rg<CR>
 
-
-" Coc
-
-
-" Comment
-" nnoremap <C-/> :call NERDComment(0,"toggle")
-" nnoremap <C-k><C-u> :call NERDCommenterUncomment()
