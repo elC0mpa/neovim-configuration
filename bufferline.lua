@@ -1,7 +1,7 @@
 require("bufferline").setup{
   options = {
     numbers = "ordinal",
-    number_style = "superscript",
+    -- number_style = "superscript",
     close_command = "bdelete %d",       -- can be a string | function, see "Mouse actions"
     -- NOTE: this plugin is designed with this icon in mind,
     -- and so changing this is NOT recommended, this is intended
