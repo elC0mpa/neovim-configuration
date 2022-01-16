@@ -28,6 +28,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" Tabs
 	Plug 'akinsho/bufferline.nvim'
+	Plug 'famiu/bufdelete.nvim'
 
 	" typing
 	Plug 'alvan/vim-closetag'
