@@ -55,6 +55,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'tpope/vim-repeat'
   Plug 'akinsho/toggleterm.nvim'
 
+	" Flutter and Dart
+	Plug 'dart-lang/dart-vim-plugin'
+	Plug 'natebosch/dartlang-snippets'
+	Plug 'thosakwe/vim-flutter'
+
 	" git
 	Plug 'nvim-lua/plenary.nvim'
 	Plug 'lewis6991/gitsigns.nvim'
