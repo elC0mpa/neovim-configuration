@@ -54,6 +54,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'mhinz/vim-startify'
 	Plug 'tpope/vim-repeat'
   Plug 'akinsho/toggleterm.nvim'
+	Plug 'numToStr/Comment.nvim', { 'tag': 'v0.6' }
 
 	" Flutter and Dart
 	Plug 'dart-lang/dart-vim-plugin'

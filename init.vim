@@ -5,6 +5,7 @@ so ~/.config/nvim/flutter.vim
 so ~/.config/nvim/lua-tree.lua
 so ~/.config/nvim/bufferline.lua
 so ~/.config/nvim/gitsigns.lua
+so ~/.config/nvim/comment.lua
 
 set rnu
 set number
