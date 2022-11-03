@@ -1,5 +1,6 @@
 so ~/.config/nvim/maps.vim
 so ~/.config/nvim/vim-plug/plugins.vim
+so ~/.config/nvim/themes/gruvbox.vim
 
 set rnu    			" relative numbers
 set number			" line numbers
