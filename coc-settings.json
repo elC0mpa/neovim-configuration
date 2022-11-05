@@ -29,5 +29,6 @@
     "constructor": "   Constructor",
     "value": "  Value",
     "enumMember": "   Enum Member"
-  }
+  },
+  "svelte.enable-ts-plugin": true
 }

@@ -38,6 +38,7 @@ nnoremap <C-j> :ToggleTerm<CR>
 " Find
 nnoremap // :noh<CR>
 nnoremap <C-f> :Rg<CR>
+nnoremap <A-b> :Buffers<CR>
 
 " Flutter
 nnoremap fp :FlutterRun<CR>
