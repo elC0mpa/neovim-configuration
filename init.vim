@@ -7,6 +7,7 @@ so ~/.config/nvim/bufferline.lua
 so ~/.config/nvim/gitsigns.lua
 so ~/.config/nvim/comment.lua
 so ~/.config/nvim/toggleterm.lua
+so ~/.config/nvim/treesitter.lua
 
 set rnu
 set number

@@ -9,7 +9,7 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" syntax
-	Plug 'sheerun/vim-polyglot'
+	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 	Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 	Plug 'norcalli/nvim-colorizer.lua'
 	Plug 'ianks/vim-tsx'
