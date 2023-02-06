@@ -1,5 +1,5 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  //"coc.preferences.formatOnSaveFiletypes": ["*"],
   "eslint.filetypes": ["*"],
   "coc.preferences.diagnostic.virtualText": true,
   "coc.preferences.jumpCommand": "tab drop",

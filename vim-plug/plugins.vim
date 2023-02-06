@@ -27,7 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'kyazdani42/nvim-web-devicons'
 
 	" Tabs
-	Plug 'akinsho/bufferline.nvim'
+	Plug 'akinsho/bufferline.nvim', {'tag': 'v2.*'}
 	Plug 'famiu/bufdelete.nvim'
 
 	" typing

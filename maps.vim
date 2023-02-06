@@ -22,6 +22,7 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 vmap <silent> <C-a>  <Plug>(coc-codeaction-selected)
+inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 " Find files
 nnoremap <C-p> :FZF -i<CR>
