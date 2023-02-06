@@ -17,4 +17,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         Plug 'morhetz/gruvbox'
 	Plug 'arcticicestudio/nord-vim'
 
+	" nvim-tree
+	Plug 'nvim-tree/nvim-tree.lua'
+	Plug 'nvim-tree/nvim-web-devicons' " optional, for file icons
+
 call plug#end()

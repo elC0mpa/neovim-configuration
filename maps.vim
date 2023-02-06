@@ -6,3 +6,11 @@ nnoremap <C-w> :bdelete<CR>
 " Find
 nnoremap // :noh<CR>
 
+" NvimTree 
+nnoremap <C-b> :NvimTreeToggle<CR>
+
+" Split Navigation Commands
+nnoremap <A-l> <C-w>l
+nnoremap <A-h> <C-w>h
+nnoremap <A-v> :vsplit<CR>
+
