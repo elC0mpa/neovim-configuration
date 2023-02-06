@@ -16,14 +16,6 @@ nnoremap <C-v> <C-w>v
 nnoremap <A-l> <C-w>l
 nnoremap <A-h> <C-w>h
 
-" GoTo's
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-vmap <silent> <C-a>  <Plug>(coc-codeaction-selected)
-inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
-
 " Find files
 nnoremap <C-p> :FZF -i<CR>
 let g:fzf_action = {
@@ -40,9 +32,3 @@ nnoremap <C-j> :ToggleTerm<CR>
 nnoremap // :noh<CR>
 nnoremap <C-f> :Rg<CR>
 nnoremap <A-b> :Buffers<CR>
-
-" Flutter
-nnoremap fp :FlutterRun<CR>
-nnoremap fr :FlutterHotRestart<CR>
-nnoremap fq :FlutterQuit<CR>
-nnoremap fv :FlutterVisualDebug<CR>
