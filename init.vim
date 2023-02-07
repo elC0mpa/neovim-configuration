@@ -9,6 +9,7 @@ so ~/.config/nvim/toggleterm.lua
 so ~/.config/nvim/treesitter.lua
 so ~/.config/nvim/blankline.lua
 so ~/.config/nvim/colorizer.lua
+so ~/.config/nvim/autopairs.lua
 
 set rnu
 set number

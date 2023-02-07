@@ -29,7 +29,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'famiu/bufdelete.nvim'
 
 	" typing
-	Plug 'jiangmiao/auto-pairs'
+	Plug 'windwp/nvim-autopairs'
 
 	" autocomplete
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
