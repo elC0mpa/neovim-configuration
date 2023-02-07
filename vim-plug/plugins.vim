@@ -14,8 +14,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'lukas-reineke/indent-blankline.nvim'
 
 	" status bar
-	" Plug 'shinchu/lightline-gruvbox.vim'
-	" Plug 'itchyny/lightline.vim'
+	Plug 'nvim-lualine/lualine.nvim'
 
 	" Themes
 	Plug 'morhetz/gruvbox'
