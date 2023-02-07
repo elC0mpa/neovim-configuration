@@ -38,7 +38,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'junegunn/fzf'
 	Plug 'junegunn/fzf.vim'
 	Plug 'terryma/vim-multiple-cursors'
-	Plug 'easymotion/vim-easymotion'
 	Plug 'mhinz/vim-startify'
 	Plug 'tpope/vim-repeat'
  	Plug 'akinsho/toggleterm.nvim'
