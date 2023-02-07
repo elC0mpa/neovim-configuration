@@ -16,19 +16,15 @@ nnoremap <C-v> <C-w>v
 nnoremap <A-l> <C-w>l
 nnoremap <A-h> <C-w>h
 
-" Find files
-nnoremap <C-p> :FZF -i<CR>
-let g:fzf_action = {
-  \ 'ctrl-t': 'tab split',
-  \ 'ctrl-s': 'split',
-  \ 'ctrl-v': 'vsplit'
-  \}
+" Telescope
+nnoremap <C-p> <cmd>Telescope find_files<cr>
+nnoremap <C-f> <cmd>Telescope live_grep<cr>
+nnoremap <A-b> <cmd>Telescope buffers<cr>
+
 
 " Terminal
 nnoremap <C-j> :ToggleTerm<CR>
-:tnoremap <Esc> <C-\><C-n>
+tnoremap <Esc> <C-\><C-n>
 
 " Find
-nnoremap // :noh<CR>
-nnoremap <C-f> :Rg<CR>
-nnoremap <A-b> :Buffers<CR>
+nnoremap <Esc> :noh<CR>

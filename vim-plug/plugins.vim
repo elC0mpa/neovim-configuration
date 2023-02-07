@@ -35,8 +35,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'leafgarland/typescript-vim'
 
 	" IDE
-	Plug 'junegunn/fzf'
-	Plug 'junegunn/fzf.vim'
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
 	Plug 'terryma/vim-multiple-cursors'
 	Plug 'mhinz/vim-startify'
 	Plug 'tpope/vim-repeat'
@@ -44,7 +44,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'numToStr/Comment.nvim'
 
 	" git
-	Plug 'nvim-lua/plenary.nvim'
 	Plug 'lewis6991/gitsigns.nvim'
 
 call plug#end()
