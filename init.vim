@@ -7,6 +7,8 @@ so ~/.config/nvim/gitsigns.lua
 so ~/.config/nvim/comment.lua
 so ~/.config/nvim/toggleterm.lua
 so ~/.config/nvim/treesitter.lua
+so ~/.config/nvim/blankline.lua
+so ~/.config/nvim/colorizer.lua
 
 set rnu
 set number
@@ -15,7 +17,6 @@ set hidden
 
 syntax on
 colorscheme gruvbox
-set termguicolors
 
 let g:gruvbox_contrast_dark = "hard"
 
@@ -26,5 +27,4 @@ set smartcase                   " ... unless they contain at least one capital l
 
 set clipboard=unnamedplus
 
-so ~/.config/nvim/colorizer.lua
 

@@ -11,8 +11,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" syntax
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 	Plug 'norcalli/nvim-colorizer.lua'
-	Plug 'ianks/vim-tsx'
-	Plug 'leafgarland/typescript-vim'
+	Plug 'lukas-reineke/indent-blankline.nvim'
 
 	" status bar
 	Plug 'shinchu/lightline-gruvbox.vim'
@@ -30,35 +29,21 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'famiu/bufdelete.nvim'
 
 	" typing
-	Plug 'alvan/vim-closetag'
-	Plug 'tpope/vim-surround'
 	Plug 'jiangmiao/auto-pairs'
 
 	" autocomplete
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'leafgarland/typescript-vim'
 
-	" test
-	Plug 'tyewang/vimux-jest-test'
-	Plug 'janko-m/vim-test'
-
 	" IDE
-	Plug 'editorconfig/editorconfig-vim'
 	Plug 'junegunn/fzf'
 	Plug 'junegunn/fzf.vim'
 	Plug 'terryma/vim-multiple-cursors'
 	Plug 'easymotion/vim-easymotion'
-	Plug 'yggdroot/indentline'
-	Plug 'scrooloose/nerdcommenter'
 	Plug 'mhinz/vim-startify'
 	Plug 'tpope/vim-repeat'
-  Plug 'akinsho/toggleterm.nvim'
+ 	Plug 'akinsho/toggleterm.nvim'
 	Plug 'numToStr/Comment.nvim'
-
-	" Flutter and Dart
-	Plug 'dart-lang/dart-vim-plugin'
-	Plug 'natebosch/dartlang-snippets'
-	Plug 'thosakwe/vim-flutter'
 
 	" git
 	Plug 'nvim-lua/plenary.nvim'
