@@ -14,8 +14,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'lukas-reineke/indent-blankline.nvim'
 
 	" status bar
-	Plug 'shinchu/lightline-gruvbox.vim'
-	Plug 'itchyny/lightline.vim'
+	" Plug 'shinchu/lightline-gruvbox.vim'
+	" Plug 'itchyny/lightline.vim'
 
 	" Themes
 	Plug 'morhetz/gruvbox'
@@ -25,7 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'kyazdani42/nvim-web-devicons'
 
 	" Tabs
-	Plug 'akinsho/bufferline.nvim', {'tag': 'v2.*'}
+	Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
 	Plug 'famiu/bufdelete.nvim'
 
 	" typing
