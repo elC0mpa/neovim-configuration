@@ -20,8 +20,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'morhetz/gruvbox'
 
 	" Tree
-	Plug 'kyazdani42/nvim-tree.lua'
-	Plug 'kyazdani42/nvim-web-devicons'
+	Plug 'nvim-tree/nvim-tree.lua'
+	Plug 'nvim-tree/nvim-web-devicons'
 
 	" Tabs
 	Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
