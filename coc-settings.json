@@ -1,6 +1,8 @@
 {
-  "eslint.filetypes": ["*"],
-  "coc.preferences.diagnostic.virtualText": true,
+  "diagnostic.enableMessage": "never",
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextPrefix": "* ",
+  "diagnostic.virtualTextCurrentLineOnly": false,
   "coc.preferences.jumpCommand": "tab drop",
   "suggest.completionItemKindLabels": {
     "method": "   Method",
