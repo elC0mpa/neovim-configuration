@@ -21,4 +21,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'nvim-tree/nvim-tree.lua'
 	Plug 'nvim-tree/nvim-web-devicons' " optional, for file icons
 
+	" code autocomplete
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+
 call plug#end()
