@@ -11,7 +11,7 @@ nnoremap <C-t> :tabnew<CR>
 inoremap <C-t> <Esc>:tabnew<CR>
 
 " Split commands
-nnoremap <C-v> <C-w>v
+nnoremap <A-v> <C-w>v
 " Split Navigation commands
 nnoremap <A-l> <C-w>l
 nnoremap <A-h> <C-w>h

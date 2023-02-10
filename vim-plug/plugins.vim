@@ -13,6 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'p00f/nvim-ts-rainbow'
 	Plug 'norcalli/nvim-colorizer.lua'
 	Plug 'lukas-reineke/indent-blankline.nvim'
+	Plug 'RRethy/nvim-treesitter-textsubjects'
 
 	" status bar
 	Plug 'nvim-lualine/lualine.nvim'
