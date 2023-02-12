@@ -1,11 +1,11 @@
+vim.cmd [[highlight TSCurrentScope guibg=#75f]]
+
+
 require'nvim-treesitter.configs'.setup {
   ensure_installed = { "html", "css", "scss", "vue", "javascript", "typescript", "tsx", "svelte", "json" },
   highlight = {
     enable = true,
     use_languagetree = true,
-  },
-  indent = {
-    enable = false
   },
   rainbow = {
     enable = true,
@@ -21,4 +21,17 @@ require'nvim-treesitter.configs'.setup {
         ['i;'] = 'textsubjects-container-inner',
     },
   },
+  refactor = {
+    highlight_definitions = {
+      enable = true,
+      clear_on_cursor_move = true
+    },
+    highlight_current_scope = { enable = true },
+    smart_rename = {
+      enable = true,
+      keymaps = {
+        smart_rename = "tr",
+      },
+    },
+  }
 }

@@ -11,6 +11,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" syntax
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 	Plug 'p00f/nvim-ts-rainbow'
+	Plug 'nvim-treesitter/nvim-treesitter-refactor'
 	Plug 'norcalli/nvim-colorizer.lua'
 	Plug 'lukas-reineke/indent-blankline.nvim'
 	Plug 'RRethy/nvim-treesitter-textsubjects'
