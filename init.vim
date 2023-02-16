@@ -3,6 +3,7 @@ so ~/.config/nvim/vim-plug/plugins.vim
 so ~/.config/nvim/themes/gruvbox.vim
 so ~/.config/nvim/lua-tree.lua
 so ~/.config/nvim/coc.vim
+so ~/.config/nvim/treesitter.lua
 
 set rnu    			" relative numbers
 set number			" line numbers

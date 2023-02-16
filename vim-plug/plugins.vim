@@ -24,5 +24,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" code autocomplete
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+	" treesitter
+	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+	Plug 'p00f/nvim-ts-rainbow'
+	Plug 'nvim-treesitter/nvim-treesitter-refactor'
+	Plug 'RRethy/nvim-treesitter-textsubjects'
+
 
 call plug#end()
