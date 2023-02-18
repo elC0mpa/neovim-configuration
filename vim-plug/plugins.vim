@@ -30,5 +30,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'nvim-treesitter/nvim-treesitter-refactor'
 	Plug 'RRethy/nvim-treesitter-textsubjects'
 
+	" terminal
+	Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
 
 call plug#end()

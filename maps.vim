@@ -14,3 +14,6 @@ nnoremap <A-l> <C-w>l
 nnoremap <A-h> <C-w>h
 nnoremap <A-v> :vsplit<CR>
 
+" Terminal
+tnoremap <Esc> <C-\><C-n>
+
