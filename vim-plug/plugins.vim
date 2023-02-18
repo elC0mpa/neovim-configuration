@@ -49,4 +49,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" git
 	Plug 'lewis6991/gitsigns.nvim'
 
+	" markdown
+	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+
 call plug#end()
