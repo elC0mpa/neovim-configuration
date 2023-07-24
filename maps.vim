@@ -20,6 +20,7 @@ nnoremap <A-h> <C-w>h
 nnoremap <C-p> <cmd>Telescope find_files<cr>
 nnoremap <C-f> <cmd>Telescope live_grep<cr>
 nnoremap <A-b> <cmd>Telescope buffers<cr>
+nnoremap <A-p> <cmd>:TodoTelescope<cr>
 
 " Terminal
 nnoremap <C-j> :ToggleTerm<CR>

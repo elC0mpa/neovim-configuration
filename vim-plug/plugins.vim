@@ -45,6 +45,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'tpope/vim-repeat'
  	Plug 'akinsho/toggleterm.nvim'
 	Plug 'numToStr/Comment.nvim'
+	Plug 'folke/todo-comments.nvim'
 
 	" git
 	Plug 'lewis6991/gitsigns.nvim'

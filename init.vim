@@ -11,6 +11,7 @@ so ~/.config/nvim/blankline.lua
 so ~/.config/nvim/colorizer.lua
 so ~/.config/nvim/autopairs.lua
 so ~/.config/nvim/lualine.lua
+so ~/.config/nvim/todo.lua
 
 set rnu
 set number
