@@ -1,5 +1,7 @@
 # Neovim Configuration
 
+[![Build and Release Installers](https://github.com/evert-arias/neovim-configuration/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/evert-arias/neovim-configuration/actions/workflows/build-and-release.yml)
+
 This Neovim configuration is tailored for a streamlined and feature-rich development experience. It includes various tools and settings to enhance productivity and ease of use.
 
 ## Features
