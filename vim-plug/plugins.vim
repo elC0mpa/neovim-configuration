@@ -10,11 +10,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" syntax
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-	Plug 'p00f/nvim-ts-rainbow'
+	Plug 'HiPhish/nvim-ts-rainbow2'
 	Plug 'nvim-treesitter/nvim-treesitter-refactor'
 	Plug 'norcalli/nvim-colorizer.lua'
 	Plug 'lukas-reineke/indent-blankline.nvim'
-	Plug 'RRethy/nvim-treesitter-textsubjects'
 
 	" status bar
 	Plug 'nvim-lualine/lualine.nvim'
@@ -46,6 +45,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
  	Plug 'akinsho/toggleterm.nvim'
 	Plug 'numToStr/Comment.nvim'
 	Plug 'folke/todo-comments.nvim'
+	Plug 'ggandor/leap.nvim'
 
 	" git
 	Plug 'lewis6991/gitsigns.nvim'
