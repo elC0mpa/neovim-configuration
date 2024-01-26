@@ -5,6 +5,7 @@ so ~/.config/nvim/lua-tree.lua
 so ~/.config/nvim/coc.vim
 so ~/.config/nvim/treesitter.lua
 so ~/.config/nvim/toggleterm.lua
+so ~/.config/nvim/bufferline.lua
 
 set rnu    			" relative numbers
 set number			" line numbers
@@ -16,3 +17,6 @@ set smartcase                   " ... unless they contain at least one capital l
 
 set clipboard=unnamedplus       " to use the operating system clipboard
 set hidden                      " to save the state of terminals
+
+set termguicolors
+

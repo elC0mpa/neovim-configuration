@@ -10,8 +10,8 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" status bar
-	Plug 'itchyny/lightline.vim'
-	Plug 'shinchu/lightline-gruvbox.vim'
+	"Plug 'itchyny/lightline.vim'
+	"Plug 'shinchu/lightline-gruvbox.vim'
 
 	" colorschemes
         Plug 'morhetz/gruvbox'
@@ -32,5 +32,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" terminal
 	Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
+
+
+	" tabs
+	Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
 
 call plug#end()
