@@ -10,8 +10,7 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" status bar
-	"Plug 'itchyny/lightline.vim'
-	"Plug 'shinchu/lightline-gruvbox.vim'
+	Plug 'nvim-lualine/lualine.nvim'
 
 	" colorschemes
         Plug 'morhetz/gruvbox'

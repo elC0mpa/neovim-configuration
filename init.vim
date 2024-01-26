@@ -6,6 +6,7 @@ so ~/.config/nvim/coc.vim
 so ~/.config/nvim/treesitter.lua
 so ~/.config/nvim/toggleterm.lua
 so ~/.config/nvim/bufferline.lua
+so ~/.config/nvim/lualine.lua
 
 set rnu    			" relative numbers
 set number			" line numbers
