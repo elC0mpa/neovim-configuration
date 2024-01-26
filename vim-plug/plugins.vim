@@ -36,5 +36,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" tabs
 	Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
+	Plug 'famiu/bufdelete.nvim'
 
 call plug#end()
