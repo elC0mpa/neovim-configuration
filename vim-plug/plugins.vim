@@ -36,4 +36,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
 	Plug 'famiu/bufdelete.nvim'
 
+	" git
+	Plug 'lewis6991/gitsigns.nvim'
+
 call plug#end()
