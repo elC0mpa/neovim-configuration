@@ -25,9 +25,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" treesitter
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-	Plug 'p00f/nvim-ts-rainbow'
+	Plug 'HiPhish/nvim-ts-rainbow2'
 	Plug 'nvim-treesitter/nvim-treesitter-refactor'
-	Plug 'RRethy/nvim-treesitter-textsubjects'
 
 	" terminal
 	Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
