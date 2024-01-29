@@ -31,12 +31,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" terminal
 	Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
 
-
 	" tabs
 	Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
 	Plug 'famiu/bufdelete.nvim'
 
 	" git
 	Plug 'lewis6991/gitsigns.nvim'
+
+	" telescope
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.5' }
 
 call plug#end()

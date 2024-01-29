@@ -23,3 +23,8 @@ inoremap <C-t> <Esc>:tabnew<CR>
 " Terminal
 tnoremap <Esc> <C-\><C-n>
 
+" Telescope
+nnoremap <C-p> <cmd>Telescope find_files<cr>
+nnoremap <C-f> <cmd>Telescope live_grep<cr>
+nnoremap <A-f> <cmd>Telescope grep_string<cr>
+nnoremap <A-b> <cmd>Telescope buffers<cr>

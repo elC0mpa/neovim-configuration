@@ -8,6 +8,7 @@ so ~/.config/nvim/toggleterm.lua
 so ~/.config/nvim/bufferline.lua
 so ~/.config/nvim/lualine.lua
 so ~/.config/nvim/gitsigns.lua
+so ~/.config/nvim/telescope.lua
 
 set rnu    			" relative numbers
 set number			" line numbers
