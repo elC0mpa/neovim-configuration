@@ -2,7 +2,6 @@ require('plugins')
 require('maps')
 
 local opt = vim.o
-local global = vim.g
 
 opt.relativenumber = true
 opt.number = true
