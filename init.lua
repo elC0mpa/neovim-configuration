@@ -1,6 +1,6 @@
-vim.cmd('so ~/.config/nvim/coc.vim')
 vim.cmd('so ~/.config/nvim/vim-plug/plugins.vim')
 require('maps')
+require('coc')
 require('lua-tree')
 require('bufferline')
 require('gitsigns')
@@ -13,7 +13,6 @@ require('autopairs')
 require('lualine')
 require('todo')
 require('leap')
-
 
 local opt = vim.o
 local global = vim.g
