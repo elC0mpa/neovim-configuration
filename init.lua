@@ -1,4 +1,4 @@
-vim.cmd('so ~/.config/nvim/vim-plug/plugins.vim')
+require('plugins')
 require('maps')
 require('coc')
 require('lua-tree')
