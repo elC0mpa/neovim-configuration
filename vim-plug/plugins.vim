@@ -53,4 +53,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" markdown
 	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
+	" AI
+	Plug 'zhenyangze/vim-bitoai'
+
 call plug#end()
