@@ -26,4 +26,4 @@ vim.keymap.set('n', '<C-j>', ':ToggleTerm<CR>', { noremap = true })
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { noremap = true })
 
 -- " Find
-vim.keymap.set('n', 'Esc', ':noh<CR>', { noremap = true })
+vim.keymap.set('n', '<Esc>', ':noh<CR>', { noremap = true })
