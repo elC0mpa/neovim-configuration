@@ -1,4 +1,9 @@
 return {
 	'norcalli/nvim-colorizer.lua',
-	config = true
+	opts = {
+		'*';
+		css = { css = true };
+		scss = { css = true };
+	},
+
 }
