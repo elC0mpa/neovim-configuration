@@ -26,5 +26,9 @@ vim.keymap.set('n', '<A-p>', '<cmd>:TodoTelescope<cr>', opts)
 vim.keymap.set('n', '<C-j>', ':ToggleTerm<CR>', opts)
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', opts)
 
--- " Find
+-- Find
 vim.keymap.set('n', '<Esc>', ':noh<CR>', opts)
+
+-- Folding
+vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
+vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
