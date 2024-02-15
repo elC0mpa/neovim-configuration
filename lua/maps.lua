@@ -32,3 +32,6 @@ vim.keymap.set('n', '<Esc>', ':noh<CR>', opts)
 -- Folding
 vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
 vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
+
+-- NeoGit
+vim.keymap.set('n', 'gh', ':Neogit<CR>', opts)
