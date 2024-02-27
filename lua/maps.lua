@@ -35,3 +35,13 @@ vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
 
 -- NeoGit
 vim.keymap.set('n', 'gh', ':Neogit<CR>', opts)
+
+-- Diffview
+vim.keymap.set('n', 'gH', ':DiffviewFileHistory<CR>', opts)
+vim.keymap.set('n', 'gv', function()
+	if next(require('diffview.lib').views) == nil then
+		vim.cmd('DiffviewOpen')
+    	else
+		vim.cmd('DiffviewClose')
+    	end
+  end, opts)
