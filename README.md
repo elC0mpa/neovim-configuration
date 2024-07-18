@@ -44,7 +44,7 @@ This Neovim configuration is tailored for a streamlined and feature-rich develop
 Execute the following command to install:
 
 ```bash
-curl -sSL [installer-linux.sh](https://github.com/elC0mpa/neovim-configuration/releases/download/v1.4.1/installer-linux.sh) | bash
+curl -sSL https://github.com/elC0mpa/neovim-configuration/releases/download/v1.4.1/installer-linux.sh | bash
 ```
 
 Or execute the following command to install from the downloaded file:
@@ -58,7 +58,7 @@ bash installer-linux.sh
 Execute the following command to install:
 
 ```bash
-curl -sSL [installer-linux.sh](https://github.com/elC0mpa/neovim-configuration/releases/download/v1.4.1/installer-macos.sh) | bash
+curl -sSL https://github.com/elC0mpa/neovim-configuration/releases/download/v1.4.1/installer-macos.sh | bash
 ```
 
 Or execute the following command to install from the downloaded file:
@@ -77,4 +77,4 @@ You can customize the configuration by editing the relevant files in the `~/.con
 
 ---
 
-*Please note that this configuration might require Neovim 0.5 or higher, and some plugins might need additional dependencies to be installed on your system.*
+_Please note that this configuration might require Neovim 0.5 or higher, and some plugins might need additional dependencies to be installed on your system._
