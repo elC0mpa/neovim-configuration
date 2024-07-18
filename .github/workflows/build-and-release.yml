@@ -33,12 +33,16 @@ jobs:
         run: |
           chmod +x scripts/build-and-release/create-linux-installer.sh
           chmod +x scripts/build-and-release/create-windows-installer.sh
+          chmod +x scripts/build-and-release/create-macos-installer.sh
 
       - name: Create Linux Installer
         run: scripts/build-and-release/create-linux-installer.sh $GITHUB_REPOSITORY $RELEASE_TAG
 
       - name: Create Windows Installer
         run: scripts/build-and-release/create-windows-installer.sh
+
+      - name: Create macOS Installer
+        run: scripts/build-and-release/create-macos-installer.sh $GITHUB_REPOSITORY $RELEASE_TAG
 
       - name: Build NSIS Installer
         run: makensis build/installer.nsi -DREPO_NAME=$REPO_NAME
