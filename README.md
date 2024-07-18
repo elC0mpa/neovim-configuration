@@ -39,14 +39,35 @@ This Neovim configuration is tailored for a streamlined and feature-rich develop
 
 ## Installation & Usage
 
-#### Linux
+### Linux
 
 Execute the following command to install:
+
 ```bash
-curl -sSL installer-linux.sh | bash
+curl -sSL [installer-linux.sh](https://github.com/elC0mpa/neovim-configuration/releases/download/v1.4.1/installer-linux.sh) | bash
 ```
 
-#### Windows
+Or execute the following command to install from the downloaded file:
+
+```bash
+bash installer-linux.sh
+```
+
+### MacOS
+
+Execute the following command to install:
+
+```bash
+curl -sSL [installer-linux.sh](https://github.com/elC0mpa/neovim-configuration/releases/download/v1.4.1/installer-macos.sh) | bash
+```
+
+Or execute the following command to install from the downloaded file:
+
+```bash
+bash installer-macos.sh
+```
+
+### Windows
 
 Download and execute `installer-windows.exe` from the releases page.
 
