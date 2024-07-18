@@ -50,4 +50,4 @@ jobs:
       - name: Create GitHub Release
         run: |
           gh auth login --with-token <<< "${{ secrets.RELEASE_TOKEN }}"
-          gh release create $RELEASE_TAG build/installer-windows.exe build/installer-linux.sh build/config.tar.gz -t "$RELEASE_TAG" -F release_notes.txt
+          gh release create $RELEASE_TAG build/installer-windows.exe build/installer-linux.sh build/installer-macos.sh build/config.tar.gz -t "$RELEASE_TAG" -F release_notes.txt
