@@ -5,7 +5,7 @@ vim.keymap.set('n', '<C-q>', ':q<CR>', opts)
 vim.keymap.set('n', '<C-w>', ':Bdelete<CR>', opts)
 
 -- Navigation commands
-vim.keymap.set('n', '<C-b>', ':NvimTreeToggle<CR>', opts)
+vim.keymap.set('n', '<C-b>', ':Neotree toggle<CR>', opts)
 vim.keymap.set('n', '<C-h>', ':bprevious<CR>', opts)
 vim.keymap.set('n', '<C-l>', ':bnext<CR>', opts)
 vim.keymap.set('n', '<C-t>', ':tabnew<CR>', opts)
