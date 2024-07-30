@@ -3,6 +3,9 @@ return {
 	opts = {
     		options = {
 			theme = 'tokyonight',
-    		}
+    		},
+		sections = {
+			lualine_x = {"aerial"}
+		}
 	}
 }

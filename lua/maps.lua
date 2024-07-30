@@ -6,6 +6,7 @@ vim.keymap.set('n', '<C-w>', ':Bdelete<CR>', opts)
 
 -- Navigation commands
 vim.keymap.set('n', '<C-b>', ':Neotree toggle<CR>', opts)
+vim.keymap.set('n', '<A-b>', ':AerialToggle<CR>', opts)
 vim.keymap.set('n', '<C-h>', ':bprevious<CR>', opts)
 vim.keymap.set('n', '<C-l>', ':bnext<CR>', opts)
 vim.keymap.set('n', '<C-t>', ':tabnew<CR>', opts)

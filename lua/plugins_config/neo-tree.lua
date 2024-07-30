@@ -11,6 +11,7 @@ return {
 		git_status_async = false,
 		window = {
 			mappings = {
+				["P"] = { "toggle_preview", config = { use_float = true, use_image_nvim = true } },
 				["<space>"] = "open",
 			},
 		},
