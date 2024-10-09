@@ -8,6 +8,9 @@ return {
   opts = {
 	disable_signs = true,
 	graph_style = "unicode",
+	status = {
+		recent_commit_count = 20
+	},
 	integrations = {
 		telescope = true,
 		diffview = true

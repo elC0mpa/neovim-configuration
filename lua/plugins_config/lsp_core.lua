@@ -62,8 +62,6 @@ return {
 					vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, opts)
 					vim.keymap.set({ 'n', 'v' }, 'ga', vim.lsp.buf.code_action, opts)
 					vim.keymap.set('n', 'gR', require('telescope.builtin').lsp_references, opts)
-					-- vim.keymap.set('n', 'd[', vim.lsp.diagnostic.goto_prev, opts)
-					-- vim.keymap.set('n', 'd]', vim.lsp.diagnostic.goto_next, opts)
 				end,
 			})
 		end

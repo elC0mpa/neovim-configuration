@@ -18,4 +18,7 @@ opt.smartcase = true            -- ... unless they contain at least one capital 
 
 opt.clipboard = "unnamedplus"
 
+opt.title = true
+local cwd = vim.fn.fnamemodify(vim.fn.getcwd(), ':t')
 
+opt.titlestring = ' ' .. cwd
