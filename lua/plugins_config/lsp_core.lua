@@ -6,7 +6,7 @@ return {
 	{
 		"williamboman/mason-lspconfig.nvim",
 		opts = {
-			ensure_installed = { "dockerls", "gopls", "html", "css_variables", "css_ls", "cssmodules_ls", "tailwindcss", "tsserver", "eslint" }
+			ensure_installed = { "dockerls", "gopls", "html", "css_variables", "css_ls", "cssmodules_ls", "tailwindcss", "ts_ls", "eslint" }
 		}
 	},
 	{
@@ -14,6 +14,9 @@ return {
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 			require 'lspconfig'.gopls.setup {
+				capabilities = capabilities
+			}
+			require 'lspconfig'.prismals.setup {
 				capabilities = capabilities
 			}
 			require 'lspconfig'.lua_ls.setup {
@@ -40,11 +43,13 @@ return {
 			require 'lspconfig'.tailwindcss.setup {
 				capabilities = capabilities
 			}
-
-			require 'lspconfig'.tsserver.setup {
+			require 'lspconfig'.ts_ls.setup {
 				capabilities = capabilities
 			}
 			require 'lspconfig'.eslint.setup {
+				capabilities = capabilities
+			}
+			require 'lspconfig'.jsonls.setup {
 				capabilities = capabilities
 			}
 
