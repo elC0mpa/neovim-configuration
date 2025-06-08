@@ -19,6 +19,9 @@ return {
 			require 'lspconfig'.gopls.setup {
 				capabilities = capabilities
 			}
+			require 'lspconfig'.angularls.setup {
+				capabilities = capabilities
+			}
 			require 'lspconfig'.prismals.setup {
 				capabilities = capabilities
 			}
