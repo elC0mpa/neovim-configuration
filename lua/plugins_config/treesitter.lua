@@ -7,7 +7,7 @@ return {
 	},
 	main = 'nvim-treesitter.configs',
 	opts = {
-  		ensure_installed = { "html", "css", "scss", "vue", "javascript", "typescript", "tsx", "svelte", "json" },
+  		ensure_installed = { "html", "css", "scss", "vue", "javascript", "typescript", "tsx", "svelte", "json", "go", "terraform", "sql" },
   		highlight = {
     			enable = true,
     			use_languagetree = true,

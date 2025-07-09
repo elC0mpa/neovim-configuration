@@ -30,8 +30,8 @@ return {
 			markdown = { "prettierd", "prettier", stop_after_first = true },
 			["markdown.mdx"] = { "prettierd", "prettier", stop_after_first = true },
 			graphql = { "prettierd", "prettier", stop_after_first = true },
-
 			go = { "gofumpt", "goimports" },
+			sql = { "sqlfluff" },
 		},
 	},
 }
