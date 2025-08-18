@@ -9,6 +9,7 @@ return {
 			vue = { "eslint_d" },
 
 			go = { "golangcilint" },
+			sql = { "sqlfluff" },
 		}
 	end,
 	keys = {

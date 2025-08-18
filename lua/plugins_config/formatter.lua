@@ -32,6 +32,7 @@ return {
 			graphql = { "prettierd", "prettier", stop_after_first = true },
 			go = { "gofumpt", "goimports" },
 			sql = { "sqlfluff" },
+			terraform = { "terraform" },
 		},
 	},
 }
