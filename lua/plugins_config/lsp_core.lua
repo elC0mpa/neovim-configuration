@@ -16,6 +16,9 @@ return {
 			require 'lspconfig'.terraformls.setup {
 				capabilities = capabilities
 			}
+			require 'lspconfig'.angularls.setup {
+				capabilities = capabilities
+			}
 			require 'lspconfig'.gopls.setup {
 				capabilities = capabilities
 			}
@@ -34,7 +37,7 @@ return {
 			require 'lspconfig'.html.setup {
 				capabilities = capabilities
 			}
-			require 'lspconfig'.css_ls.setup {
+			require 'lspconfig'.cssls.setup {
 				capabilities = capabilities
 			}
 			require 'lspconfig'.css_variables.setup {
