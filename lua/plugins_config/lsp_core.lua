@@ -6,17 +6,17 @@ return {
 	{
 		"williamboman/mason-lspconfig.nvim",
 		opts = {
-			ensure_installed = { "dockerls", "gopls", "html", "css_variables", "css_ls", "cssmodules_ls", "tailwindcss", "ts_ls", "eslint" }
+			ensure_installed = { "dockerls", "gopls", "html", "css_variables", "css_ls", "cssmodules_ls", "tailwindcss", "ts_ls", "eslint", "terraformls" }
 		}
 	},
 	{
 		"neovim/nvim-lspconfig",
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
-			require 'lspconfig'.terraformls.setup {
+			require 'lspconfig'.pylsp.setup {
 				capabilities = capabilities
 			}
-			require 'lspconfig'.angularls.setup {
+			require 'lspconfig'.terraformls.setup {
 				capabilities = capabilities
 			}
 			require 'lspconfig'.gopls.setup {
@@ -44,9 +44,6 @@ return {
 				capabilities = capabilities
 			}
 			require 'lspconfig'.cssmodules_ls.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.cssls.setup {
 				capabilities = capabilities
 			}
 			require 'lspconfig'.tailwindcss.setup {

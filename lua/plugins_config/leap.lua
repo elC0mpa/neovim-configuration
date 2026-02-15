@@ -1,7 +1,6 @@
 return {
-	'ggandor/leap.nvim',
-	dependencies = { 'tpope/vim-repeat' },
+	url = "https://codeberg.org/andyg/leap.nvim",
 	config = function()
-		require('leap').add_default_mappings()
-	end
+		require("leap").add_default_mappings()
+	end,
 }
