@@ -13,51 +13,18 @@ return {
 		"neovim/nvim-lspconfig",
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
-			require 'lspconfig'.pylsp.setup {
-				capabilities = capabilities
+			local servers = {
+				'pylsp', 'terraformls', 'gopls', 'angularls', 'prismals', 'lua_ls',
+				'dockerls', 'html', 'cssls', 'css_variables', 'cssmodules_ls',
+				'tailwindcss', 'ts_ls', 'eslint', 'jsonls'
 			}
-			require 'lspconfig'.terraformls.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.gopls.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.angularls.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.prismals.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.lua_ls.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.dockerls.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.html.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.cssls.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.css_variables.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.cssmodules_ls.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.tailwindcss.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.ts_ls.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.eslint.setup {
-				capabilities = capabilities
-			}
-			require 'lspconfig'.jsonls.setup {
-				capabilities = capabilities
-			}
+
+			for _, lsp in ipairs(servers) do
+				vim.lsp.config(lsp, {
+					capabilities = capabilities,
+				})
+				vim.lsp.enable(lsp)
+			end
 
 			vim.api.nvim_create_autocmd('LspAttach', {
 				group = vim.api.nvim_create_augroup('UserLspConfig', {}),
