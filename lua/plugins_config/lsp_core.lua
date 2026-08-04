@@ -40,6 +40,22 @@ return {
 					vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, opts)
 					vim.keymap.set({ 'n', 'v' }, 'ga', vim.lsp.buf.code_action, opts)
 					vim.keymap.set('n', 'gR', require('telescope.builtin').lsp_references, opts)
+					vim.keymap.set('n', 'tr', vim.lsp.buf.rename, opts)
+
+					local client = vim.lsp.get_client_by_id(ev.data.client_id)
+					if client and client.supports_method('textDocument/documentHighlight') then
+						local highlight_augroup = vim.api.nvim_create_augroup('UserLspDocumentHighlight', { clear = false })
+						vim.api.nvim_create_autocmd({ 'CursorHold', 'CursorHoldI' }, {
+							buffer = ev.buf,
+							group = highlight_augroup,
+							callback = vim.lsp.buf.document_highlight,
+						})
+						vim.api.nvim_create_autocmd({ 'CursorMoved', 'CursorMovedI' }, {
+							buffer = ev.buf,
+							group = highlight_augroup,
+							callback = vim.lsp.buf.clear_references,
+						})
+					end
 				end,
 			})
 		end
