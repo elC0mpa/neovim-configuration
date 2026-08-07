@@ -13,6 +13,10 @@ return {
 		"neovim/nvim-lspconfig",
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
+			capabilities.workspace = capabilities.workspace or {}
+			capabilities.workspace.didChangeWatchedFiles = {
+				dynamicRegistration = false,
+			}
 			local servers = {
 				'pylsp', 'terraformls', 'gopls', 'angularls', 'prismals', 'lua_ls',
 				'dockerls', 'html', 'cssls', 'css_variables', 'cssmodules_ls',

@@ -16,7 +16,7 @@ return {
     		close_icon = '',
     		left_trunc_marker = '',
     		right_trunc_marker = '',
-    		diagnostics = "coc",
+    		diagnostics = "nvim_lsp",
     		diagnostics_indicator = function(count, level, diagnostics_dict, context)
       			return "("..count..")"
     		end,

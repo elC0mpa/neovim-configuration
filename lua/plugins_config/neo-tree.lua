@@ -8,7 +8,26 @@ return {
 		-- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
 	},
 	opts = {
-		git_status_async = false,
+		git_status_async = true,
+		filesystem = {
+			filtered_items = {
+				visible = false,
+				hide_dotfiles = false,
+				hide_gitignored = true,
+				hide_by_name = {
+					"node_modules",
+					".git",
+					".pnpm-store",
+					".build",
+					"dist",
+				},
+				never_show = {
+					"node_modules",
+					".git",
+				},
+			},
+			use_libuv_file_watcher = true,
+		},
 		window = {
 			mappings = {
 				["P"] = { "toggle_preview", config = { use_float = true, use_image_nvim = true } },

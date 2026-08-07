@@ -3,5 +3,15 @@ return {
 	dependencies = {
 		'nvim-lua/plenary.nvim'
 	},
-	config = true
+	opts = {
+		defaults = {
+			file_ignore_patterns = {
+				"node_modules/.*",
+				"%.git/.*",
+				"%.pnpm-store/.*",
+				"%.build/.*",
+				"dist/.*",
+			},
+		},
+	},
 }
